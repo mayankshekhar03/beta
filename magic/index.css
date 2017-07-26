@@ -53,12 +53,12 @@ nav > button:hover {
 .container {
     position: fixed;
     z-index: 1;
-    top: 30%;
+    top: 40%;
     left: 50%;
     max-height: 500px;
     max-width: 40em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -19em; /*set to a negative number 1/2 of your width*/
+    margin-left: -21.3em; /*set to a negative number 1/2 of your width*/
     padding: 20px;
     background-color: white;
     border-radius: .2em;
@@ -93,7 +93,7 @@ nav > button:hover {
 
 .list > div:hover {
     color: white;
-    background-color: blue;
+    background-color: blue; !important
     cursor: pointer;
 }
 
@@ -114,4 +114,9 @@ nav > button:hover {
 .list {
     max-height: 400px;
     overflow: auto;
+}
+
+.selected {
+    background-color:darkviolet;
+    color: white;
 }
