@@ -49,3 +49,69 @@ nav > button:hover {
     color: white;
     cursor: pointer;
 }
+
+.container {
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    left: 50%;
+    max-height: 500px;
+    max-width: 40em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -19em; /*set to a negative number 1/2 of your width*/
+    padding: 20px;
+    background-color: white;
+    border-radius: .2em;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    max-height: 500px;
+}
+
+.sidebar > h2 {
+    display: inline-block;
+}
+
+.sidebar > button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: none;
+    background-color: white;
+    font-size: 1.9em;
+}
+
+.sidebar > button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.list > div:hover {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.list > div {
+    padding: 5px;
+}
+
+.details {
+    display: inline-block;
+    width: 60%;
+    padding: 5px;
+    padding-left: 15px;
+    border-left: 1px solid black;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.list {
+    max-height: 400px;
+    overflow: auto;
+}
