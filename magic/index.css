@@ -1,0 +1,51 @@
+body {
+    overflow: auto;
+    background-image: url(bg.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#intro {
+    padding: 20px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -16em; /*set to a negative number 1/2 of your width*/
+    border-radius: 1em;
+    background-color: rgba(211,211,211,0.5);
+}
+
+#intro > img {
+    width: 30%;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+#name {
+    display: inline-block;
+    position: relative;
+}
+
+#name > h1 {
+    padding: 10px;
+}
+
+#name > nav {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+nav > button {
+    padding: 8px;
+    border: none;
+    border-radius: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav > button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
