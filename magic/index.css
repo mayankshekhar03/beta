@@ -56,7 +56,7 @@ nav > button:hover {
     top: 30%;
     left: 50%;
     height: 500px;
-    max-width: 55em;
+    width: 55em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -29em; /*set to a negative number 1/2 of your width*/
     padding: 20px;
@@ -98,7 +98,7 @@ nav > button:hover {
 }
 
 .details {
-    display: inline-block;
+    float: right;
     position: relative;
     width: 65%;
     padding: 5px;
