@@ -5,7 +5,7 @@ $(document).ready(function(){
         $('#intro').hide();
         $('#projects').removeClass('animated bounceOutUp');
         $('#projects').addClass('animated bounceInDown');
-        $('.container').show();
+        $('#projects').show();
         $('#p1').siblings().removeClass('selected');
         $('#p1').addClass('selected');
         $('.details .P1').show();
@@ -20,7 +20,12 @@ $(document).ready(function(){
         });
     });
     
-    
+    $('#contac').click(function(){
+        $('#intro').hide();
+        $('#contact').removeClass('animated bounceOutUp');
+        $('#contact').addClass('animated bounceInDown');
+        $('#contact').show();
+    });
     
     $('.back').click(function(){
         $('#intro').show();
