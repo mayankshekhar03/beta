@@ -246,6 +246,10 @@
         position: relative;
     }
     
+    .details > div img {
+        width: 100% !important; 
+    }
+    
     .link {
         border: none;
         padding: 8px;
