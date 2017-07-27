@@ -71,11 +71,6 @@ nav > button:hover {
     position: relative;
     padding: 5px;
     height: 500px;
-    opacity: .8;
-}
-
-.sidebar > h2 {
-    display: inline-block;
 }
 
 .sidebar > button {
@@ -104,11 +99,31 @@ nav > button:hover {
 
 .details {
     display: inline-block;
+    position: relative;
     width: 65%;
     padding: 5px;
     padding-left: 15px;
     height: 500px;
     overflow: auto;
+}
+
+.link {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    border: none;
+    padding: 5px;
+    border-radius: 2em;
+}
+
+.link:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    display: inline-block;
 }
 
 .list {
