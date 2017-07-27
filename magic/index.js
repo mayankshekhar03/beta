@@ -1,10 +1,11 @@
 $(document).ready(function(){
     $('.container').hide();
+    
     $('#project').click(function(){
         $('#intro').hide();
-        $('#projects').addClass('animated zoomIn');
+        $('#projects').removeClass('animated bounceOutUp');
+        $('#projects').addClass('animated bounceInDown');
         $('.container').show();
-        setTimeout(function(){$('#projects').removeClass('animated fadeIn');}, 1000);
         $('#p1').siblings().removeClass('selected');
         $('#p1').addClass('selected');
         $('.details .P1').show();
@@ -19,8 +20,15 @@ $(document).ready(function(){
         });
     });
     
+    
+    
     $('.back').click(function(){
         $('#intro').show();
-        $('.container').hide();
+        //$('.container').hide();
+        $('.container').removeClass('animated bounceInDown');
+        $('.container').addClass('animated bounceOutUp');
+        setTimeout(function(){
+            $('.container').hide();
+        }, 1000);
     });
 });
