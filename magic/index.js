@@ -36,4 +36,15 @@ $(document).ready(function(){
             $('.container').hide();
         }, 1000);
     });
+    
+    if($(window).width() < 1000) {
+        $('.list').hide();
+        $('.list').click(function(){
+            $('.list').toggle();
+        });
+    }
+    
+    $('#menu').click(function(){
+        $('.list').toggle();
+    });
 });
