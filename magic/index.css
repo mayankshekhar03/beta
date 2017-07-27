@@ -254,4 +254,23 @@
         right: 0px;
         top: 0px;
     }
+    
+    #contact {
+        margin-top: 170px;
+        position: relative;
+        padding: 20px;
+    }
+    
+    #contact > button {
+        position: absolute;
+        left: 20px;
+        top: 40px;
+        border: none;
+        font-size: 1.4em;
+        background-color: white;
+    }
+    
+    #contact > div {
+        margin-top: 5px !important;
+    }
 }
