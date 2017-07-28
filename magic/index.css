@@ -1,5 +1,9 @@
 @media screen and (min-width: 1000px) {
-
+    
+    .sidebar > hr {
+        display: none;
+    }
+    
     body {
         overflow: auto;
         background-image: url(bg.jpg);
@@ -172,7 +176,7 @@
         background-color: rgba(211,211,211,0.5);
         padding: 2em;
         border-radius: 2em;
-        margin-top: 5em;
+        margin-top: 3em;
     }
     
     #intro > img {
@@ -224,7 +228,7 @@
     #menu {
         position: absolute;
         right: 0px;
-        top: 20px;
+        top: 18px;
         font-size: 1.4em;
     }
     
@@ -246,6 +250,11 @@
         position: relative;
     }
     
+    .details > div h2 {
+        display: inline-block;
+        width: 200px;
+    }
+    
     .details > div img {
         width: 100% !important; 
     }
@@ -256,7 +265,7 @@
         border-radius: 6em;
         position: absolute;
         right: 0px;
-        top: 0px;
+        top: 17px;
     }
     
     #contact {
